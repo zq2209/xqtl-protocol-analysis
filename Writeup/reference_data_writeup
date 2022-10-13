@@ -1,0 +1,26 @@
+
+
+# Reference_data Protocol Writeup
+##  What I have done:
+* Read the Chapter 8 from the book Computational Genomics with R (https://compgenomr.github.io/book/)
+* Solved some issues met during running some codes in protocol. Details will show below
+Read some papers about SOS
+* Watched few lectures about genetics and genomics 
+* Read some introduction of QTLs
+* Learned what is SSH, how to create it, and how to connect computer with server.
+* Watched some videos introducing docker. 
+
+## What I have learned
+
+After reading Chapter 8 of the book, I have learned basic workflow of RNA seq analysis. In this analysis, it starts with processing raw data, alignment, quantification and normalization, the doing some analysis on processed data. The analysis includes EDA, differential expression analysis, and functional enrichment analysis.  The protocols of Bulk RNA-seq molecular phenotype quantification in introduction page are basically followed data processing of the book. This chapter is really useful for new comers to this field. 
+
+It is really typical for new comers to be panic after seeing error when running codes. The first reaction is to seeking help from others. But this is usually not very useful. What should do is to dig into the stderr and stdout file, then read through carefully to figure out the error. And try to search and fix by self. Then ask for help if can't fix it. 
+
+I have met memory issue when running this protocol.The project usually requires more than 16GB to run, unfortunately mine is only 8GB. I have to create virtual instance to run protocols. The most difficult part is to connect personal computer to virtual instance and using Jupyter lab in broswer. It spent me about 10 hours to figure it out. During this process, I have learned something about SSH, which I don't have a chance to get familiar before. 
+
+In this protocol, I have also learned some other knowledge, such as docker, genomics. I have found some lectures online, which are helpful for me. 
+
+
+
+## Next things to do
+Things I plan to do next are working on protocols, and tried to contribute. Also, tried to fix errors by myself, continuing learning genomics by watching lectures. And I plan to read Chapter 9 of the book.
